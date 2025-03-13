@@ -1,3 +1,5 @@
 [dependencies]
-aes-gcm = "0.10" # AES-GCM encryption library
-rand = "0.8"      # Random number generator for the nonce
+aes-gcm = "0.10"          # AES-GCM encryption library
+rand = "0.8"               # Random number generator
+x25519-dalek = "2.0"       # Curve25519 key exchange for the ratchet
+sha2 = "0.10"              # SHA-256 for key derivation
